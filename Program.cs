@@ -13,6 +13,18 @@
             }
 
 
+
+            string phrase1 = "The quick brown    fox     jumps over the lazy dog.";
+            string[] words1 = phrase1.Split(' ');
+
+            foreach (var word in words1)
+            {
+                System.Console.WriteLine($"<{word}>");
+            }
+
+
+
+
         }
     }
 }
