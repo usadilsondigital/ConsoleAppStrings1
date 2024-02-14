@@ -43,6 +43,18 @@
 
 
             ///Consecutive instances of any separator produce the empty string in the output array:
+            ///
+
+            string text2 = "one\ttwo :,five six seven";
+            System.Console.WriteLine($"Original text2: '{text2}'");
+
+            string[] words3 = text.Split(delimiterChars);
+            System.Console.WriteLine($"{words3.Length} words in text:");
+
+            foreach (var word in words3)
+            {
+                System.Console.WriteLine($"<{word}>");
+            }
 
         }
     }
