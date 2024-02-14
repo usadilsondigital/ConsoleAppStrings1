@@ -31,6 +31,13 @@
             System.Console.WriteLine($"Original text: '{text}'");
 
 
+            string[] words2 = text.Split(delimiterChars);
+            System.Console.WriteLine($"{words2.Length} words in text:");
+
+            foreach (var word in words2)
+            {
+                System.Console.WriteLine($"<{word}>");
+            }
 
         }
     }
