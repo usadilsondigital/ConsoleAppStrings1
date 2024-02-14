@@ -22,6 +22,13 @@
                 System.Console.WriteLine($"<{word}>");
             }
 
+            ///---------------
+            ///
+
+            char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
+
+            string text = "one\ttwo three:four,five six seven";
+            System.Console.WriteLine($"Original text: '{text}'");
 
 
 
