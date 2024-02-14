@@ -66,3 +66,15 @@ foreach (var word in words4)
 {
     System.Console.WriteLine(word);
 }
+
+
+////
+///
+string s = "You win some. You lose some.";
+
+string[] subs = s.Split();
+
+foreach (string sub in subs)
+{
+    Console.WriteLine($"Substring: {sub}");
+}
