@@ -23,8 +23,10 @@
             }
 
             ///---------------
-            ///
-
+            ///You can pass an optional StringSplitOptions.RemoveEmptyEntries parameter to exclude any 
+            ///strings in the returned array. For more complicated processing of the returned collection, 
+            ///you can use LINQ to manipulate the result sequence.
+            ///String.Split can use multiple separator characters. 
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
 
             string text = "one\ttwo three:four,five six seven";
@@ -38,6 +40,9 @@
             {
                 System.Console.WriteLine($"<{word}>");
             }
+
+
+            ///Consecutive instances of any separator produce the empty string in the output array:
 
         }
     }
