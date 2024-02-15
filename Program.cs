@@ -138,7 +138,7 @@ foreach (string expression in expressions2)
     System.Text.RegularExpressions.Regex.Matches(expression, pattern2)) {
 
         int value1 = Int32.Parse(m.Groups[1].Value);
-
+        int value2 = Int32.Parse(m.Groups[3].Value);
     }
 
 }
