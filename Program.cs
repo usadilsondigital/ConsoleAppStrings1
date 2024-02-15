@@ -151,6 +151,9 @@ foreach (string expression in expressions2)
             case "*":
                 Console.WriteLine("{0} = {1}", m.Value, value1 * value2);
                 break;
+            case "/":
+                Console.WriteLine("{0} = {1:N2}", m.Value, value1 / value2);
+                break;
         }
     }
 
