@@ -88,7 +88,10 @@ foreach (string expression in expressions)
 {
 
     foreach (System.Text.RegularExpressions.Match m in
-  
+  System.Text.RegularExpressions.Regex.Matches(expression, pattern))
+    {
+        
+    }
 }
 
 
