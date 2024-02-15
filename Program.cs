@@ -139,6 +139,11 @@ foreach (string expression in expressions2)
 
         int value1 = Int32.Parse(m.Groups[1].Value);
         int value2 = Int32.Parse(m.Groups[3].Value);
+
+        switch (m.Groups[2].Value)
+        {
+
+        }
     }
 
 }
