@@ -173,3 +173,9 @@ String input2 = "[This is captured\ntext.]\n\n[\n" +
                "\n   Option2][Terse text.]";
 String pattern3 = @"\[([^\[\]]+)\]";
 int ctr = 0;
+
+foreach (System.Text.RegularExpressions.Match m in
+   System.Text.RegularExpressions.Regex.Matches(input2, pattern3))
+{
+    Console.WriteLine("{0}: {1}", ++ctr, m.Groups[1].Value);
+}
