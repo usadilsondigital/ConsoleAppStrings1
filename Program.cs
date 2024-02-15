@@ -95,7 +95,9 @@ foreach (string expression in expressions)
 
         switch (m.Groups[2].Value)
         {
-           
+            case "+":
+                Console.WriteLine("{0} = {1}", m.Value, value1 + value2);
+            
         }
 
     }
