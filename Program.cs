@@ -90,7 +90,9 @@ foreach (string expression in expressions)
     foreach (System.Text.RegularExpressions.Match m in
   System.Text.RegularExpressions.Regex.Matches(expression, pattern))
     {
-        
+        int value1 = Int32.Parse(m.Groups[1].Value);
+        int value2 = Int32.Parse(m.Groups[3].Value);
+       
     }
 }
 
