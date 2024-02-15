@@ -87,6 +87,8 @@ String pattern = @"(\d+)\s+([-+*/])\s+(\d+)";
 foreach (string expression in expressions)
 {
 
+    foreach (System.Text.RegularExpressions.Match m in
+  
 }
 
 
