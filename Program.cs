@@ -167,3 +167,7 @@ foreach (string expression in expressions2)
 //       12 * 7 = 84
 
 ////////////////////////////////////////////////////////////////////////////////
+String input2 = "[This is captured\ntext.]\n\n[\n" +
+               "[This is more captured text.]\n]\n" +
+               "[Some more captured text:\n   Option1" +
+               "\n   Option2][Terse text.]";
