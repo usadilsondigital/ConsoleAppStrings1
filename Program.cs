@@ -179,3 +179,12 @@ foreach (System.Text.RegularExpressions.Match m in
 {
     Console.WriteLine("{0}: {1}", ++ctr, m.Groups[1].Value);
 }
+
+// The example displays the following output:
+//       1: This is captured
+//       text.
+//       2: This is more captured text.
+//       3: Some more captured text:
+//          Option1
+//          Option2
+//       4: Terse text.
