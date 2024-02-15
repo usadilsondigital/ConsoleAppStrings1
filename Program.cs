@@ -135,8 +135,10 @@ foreach (string expression in expressions2)
 {
 
     foreach (System.Text.RegularExpressions.Match m in
-    System.Text.RegularExpressions.Regex.Matches(expression, pattern2)) { 
-    
+    System.Text.RegularExpressions.Regex.Matches(expression, pattern2)) {
+
+        int value1 = Int32.Parse(m.Groups[1].Value);
+
     }
 
 }
