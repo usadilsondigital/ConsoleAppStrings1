@@ -188,3 +188,6 @@ foreach (System.Text.RegularExpressions.Match m in
 //          Option1
 //          Option2
 //       4: Terse text.
+
+String input4 = "abacus -- alabaster - * - atrium -+- " +
+               "any -*- actual - + - armoire - - alarm";
