@@ -158,3 +158,12 @@ foreach (string expression in expressions2)
     }
 
 }
+
+// The example displays the following output:
+//       16 + 21 = 37
+//       31 * 3 = 93
+//       28 / 3 = 9.33
+//       42 - 18 = 24
+//       12 * 7 = 84
+
+////////////////////////////////////////////////////////////////////////////////
