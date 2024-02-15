@@ -191,3 +191,5 @@ foreach (System.Text.RegularExpressions.Match m in
 
 String input4 = "abacus -- alabaster - * - atrium -+- " +
                "any -*- actual - + - armoire - - alarm";
+
+String pattern4 = @"\s-\s?[+*]?\s?-\s";
