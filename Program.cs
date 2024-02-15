@@ -130,3 +130,8 @@ String[] expressions2 = { "16 + 21", "31 * 3", "28 / 3",
                        "2, 4, 6, 8" };
 
 String pattern2 = @"(\d+)\s+([-+*/])\s+(\d+)";
+
+foreach (string expression in expressions2)
+{ 
+
+}
