@@ -132,6 +132,11 @@ String[] expressions2 = { "16 + 21", "31 * 3", "28 / 3",
 String pattern2 = @"(\d+)\s+([-+*/])\s+(\d+)";
 
 foreach (string expression in expressions2)
-{ 
+{
+
+    foreach (System.Text.RegularExpressions.Match m in
+    System.Text.RegularExpressions.Regex.Matches(expression, pattern2)) { 
+    
+    }
 
 }
