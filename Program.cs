@@ -78,3 +78,7 @@ foreach (string sub in subs)
 {
     Console.WriteLine($"Substring: {sub}");
 }
+
+String[] expressions = { "16 + 21", "31 * 3", "28 / 3",
+                       "42 - 18", "12 * 7",
+                       "2, 4, 6, 8" };
