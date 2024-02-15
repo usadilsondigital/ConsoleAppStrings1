@@ -83,3 +83,13 @@ String[] expressions = { "16 + 21", "31 * 3", "28 / 3",
                        "42 - 18", "12 * 7",
                        "2, 4, 6, 8" };
 String pattern = @"(\d+)\s+([-+*/])\s+(\d+)";
+
+
+
+
+// The example displays the following output:
+//       16 + 21 = 37
+//       31 * 3 = 93
+//       28 / 3 = 9.33
+//       42 - 18 = 24
+//       12 * 7 = 84
