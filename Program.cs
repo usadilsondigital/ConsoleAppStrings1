@@ -171,3 +171,5 @@ String input2 = "[This is captured\ntext.]\n\n[\n" +
                "[This is more captured text.]\n]\n" +
                "[Some more captured text:\n   Option1" +
                "\n   Option2][Terse text.]";
+String pattern3 = @"\[([^\[\]]+)\]";
+int ctr = 0;
