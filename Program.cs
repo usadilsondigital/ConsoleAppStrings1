@@ -208,3 +208,11 @@ foreach (string element in elements)
 //       actual
 //       armoire
 //       alarm
+
+/////////////////////////////////////////////
+///
+String s5 = "This is the first sentence in a string. " +
+               "More sentences will follow. For example, " +
+               "this is the third sentence. This is the " +
+               "fourth. And this is the fifth and final " +
+               "sentence.";
