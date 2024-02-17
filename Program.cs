@@ -235,3 +235,10 @@ do
 // Display the sentences.
 foreach (var sentence in sentences)
     Console.WriteLine(sentence);
+
+// The example displays the following output:
+//       This is the first sentence in a string.
+//       More sentences will follow.
+//       For example, this is the third sentence.
+//       This is the fourth.
+//       And this is the fifth and final sentence.
