@@ -197,3 +197,4 @@ String pattern4 = @"\s-\s?[+*]?\s?-\s";
 String[] elements = System.Text.RegularExpressions.Regex.Split(input4, pattern4);
 
 foreach (string element in elements)
+    Console.WriteLine(element);
