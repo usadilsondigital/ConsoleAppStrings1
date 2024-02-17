@@ -257,4 +257,5 @@ string lastName;
 if (subs.Length > 1)
 {
     lastName = subs[1];
-}
+}// firstName = "Alex"
+// lastName = "Johnson III"
