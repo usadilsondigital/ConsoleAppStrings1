@@ -230,3 +230,7 @@ do
         start = position + 1;
     }
 } while (position > 0);
+
+
+// Display the sentences.
+foreach (var sentence in sentences)
