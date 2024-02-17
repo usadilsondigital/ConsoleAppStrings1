@@ -248,14 +248,19 @@ foreach (var sentence in sentences)
 ///
 string name = "Alex Johnson III";
 
-string[] subs = name.Split(null, 2);
+string[] subs6 = name.Split(null, 2);
 
 
 string firstName = subs[0];
 string lastName;
 
-if (subs.Length > 1)
+if (subs6.Length > 1)
 {
-    lastName = subs[1];
+    lastName = subs6[1];
 }// firstName = "Alex"
-// lastName = "Johnson III"
+ // lastName = "Johnson III"
+
+////////////////////////
+string phrase7 = "The quick  brown fox";
+
+_ = phrase7.Split(default(char[]), StringSplitOptions.RemoveEmptyEntries);
