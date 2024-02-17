@@ -224,5 +224,8 @@ int position;
 do
 {
     position = s.IndexOf('.', start);
-    
+    if (position >= 0)
+    {
+        
+    }
 } while (position > 0);
