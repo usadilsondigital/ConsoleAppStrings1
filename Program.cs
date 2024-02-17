@@ -264,3 +264,5 @@ if (subs6.Length > 1)
 string phrase7 = "The quick  brown fox";
 
 _ = phrase7.Split(default(char[]), StringSplitOptions.RemoveEmptyEntries);
+
+_ = phrase7.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries);
