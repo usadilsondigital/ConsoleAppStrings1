@@ -247,3 +247,5 @@ foreach (var sentence in sentences)
 ////////////////////////////////////
 ///
 string name = "Alex Johnson III";
+
+string[] subs = name.Split(null, 2);
