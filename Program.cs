@@ -219,3 +219,10 @@ String s5 = "This is the first sentence in a string. " +
 var sentences = new List<String>();
 int start = 0;
 int position;
+
+// Extract sentences from the string.
+do
+{
+    position = s.IndexOf('.', start);
+    
+} while (position > 0);
