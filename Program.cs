@@ -189,6 +189,7 @@ foreach (System.Text.RegularExpressions.Match m in
 //          Option2
 //       4: Terse text.
 
+///////////////////////////////////////
 String input4 = "abacus -- alabaster - * - atrium -+- " +
                "any -*- actual - + - armoire - - alarm";
 
@@ -198,3 +199,12 @@ String[] elements = System.Text.RegularExpressions.Regex.Split(input4, pattern4)
 
 foreach (string element in elements)
     Console.WriteLine(element);
+
+// The example displays the following output:
+//       abacus
+//       alabaster
+//       atrium
+//       any
+//       actual
+//       armoire
+//       alarm
