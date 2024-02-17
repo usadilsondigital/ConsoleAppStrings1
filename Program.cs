@@ -194,4 +194,4 @@ String input4 = "abacus -- alabaster - * - atrium -+- " +
 
 String pattern4 = @"\s-\s?[+*]?\s?-\s";
 
-String[] elements = System.Text.RegularExpressions.Regex.Split(input, pattern);
+String[] elements = System.Text.RegularExpressions.Regex.Split(input4, pattern4);
