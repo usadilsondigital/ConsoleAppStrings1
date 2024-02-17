@@ -234,3 +234,4 @@ do
 
 // Display the sentences.
 foreach (var sentence in sentences)
+    Console.WriteLine(sentence);
