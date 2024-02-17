@@ -253,3 +253,8 @@ string[] subs = name.Split(null, 2);
 
 string firstName = subs[0];
 string lastName;
+
+if (subs.Length > 1)
+{
+    lastName = subs[1];
+}
