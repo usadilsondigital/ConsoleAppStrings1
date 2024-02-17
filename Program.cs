@@ -217,3 +217,5 @@ String s5 = "This is the first sentence in a string. " +
                "fourth. And this is the fifth and final " +
                "sentence.";
 var sentences = new List<String>();
+int start = 0;
+int position;
