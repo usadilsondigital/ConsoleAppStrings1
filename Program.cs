@@ -242,3 +242,8 @@ foreach (var sentence in sentences)
 //       For example, this is the third sentence.
 //       This is the fourth.
 //       And this is the fifth and final sentence.
+
+
+////////////////////////////////////
+///
+string name = "Alex Johnson III";
