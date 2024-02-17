@@ -193,3 +193,5 @@ String input4 = "abacus -- alabaster - * - atrium -+- " +
                "any -*- actual - + - armoire - - alarm";
 
 String pattern4 = @"\s-\s?[+*]?\s?-\s";
+
+String[] elements = System.Text.RegularExpressions.Regex.Split(input, pattern);
