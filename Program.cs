@@ -266,3 +266,5 @@ string phrase7 = "The quick  brown fox";
 _ = phrase7.Split(default(char[]), StringSplitOptions.RemoveEmptyEntries);
 
 _ = phrase7.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries);
+
+_ = phrase7.Split(null as char[], StringSplitOptions.RemoveEmptyEntries);
