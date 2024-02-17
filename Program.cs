@@ -226,6 +226,7 @@ do
     position = s.IndexOf('.', start);
     if (position >= 0)
     {
-        
+        sentences.Add(s.Substring(start, position - start + 1).Trim());
+        start = position + 1;
     }
 } while (position > 0);
